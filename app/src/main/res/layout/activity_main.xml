@@ -14,6 +14,11 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/btn_click_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Me"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
