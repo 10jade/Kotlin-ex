@@ -8,17 +8,80 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+
         android:id="@+id/ll_main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
 
+
         <Button
-            android:id="@+id/btn_click_me"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Click Me"/>
+            android:background="@drawable/btn_solid_color"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:text="Solid Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_gradient"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:text="Gradient Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_center_gradient"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:text="Center Gradient Button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_edge_color"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:text="Edge Color Button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_round_edge"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:text="Round Edge Button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_oval"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:text="Oval Button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_oval_gradient"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            android:text="Oval Gradient Button"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
